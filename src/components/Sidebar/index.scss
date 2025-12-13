@@ -1,0 +1,118 @@
+.nav-bar {
+    background: #0C0950;
+    width: 140px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+
+    .logo {
+        display: block;
+        padding: 8px 0;
+
+        img {   
+            display: block;
+            margin: 20px auto;
+            width: 75px;
+            height: auto;
+            animation: headShake 1s 0.5s;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    nav {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 40%;
+        text-align: center;
+        a {
+            opacity: 0;
+            animation: bounceIn 1s 0.5s forwards;
+            display: block;
+            position: relative;
+            color: #fbe4d6a9;
+            text-decoration: none;
+            font-size: 30px;
+            height: 90px;
+            transition: all 0.3s ease-out;
+
+            &:hover {
+                color: #FBE4D6;
+
+                &::after {
+                    top: -5%;
+                    display: inline;
+                    margin-left: 6px;
+                    width: 50%;
+                    opacity: 1;
+                    transition: all 0.3s ease-out;
+                }
+                
+            }
+
+            &::after {
+                content: '';
+                display: block;
+                position: relative;
+                font-size: 18px;
+                font-weight: 600;
+                margin-left: 2px;
+                text-align: left;
+                opacity: 0;
+            }
+        }
+
+        a.about-link{
+            &::after {
+                content: 'Profile';
+            }
+        }
+        
+        a.projects-link{
+            &::after {
+                content: 'Projects';
+            }
+        }
+
+        a.contact-link{
+            &::after {
+                content: 'Contact';
+            }
+        }
+
+        a.active {
+            svg {
+                color: #FBE4D6;
+            }
+        }
+    }
+
+    .social {
+        opacity: 0;
+        animation: bounceIn 1s 2.5s forwards;
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 40px;
+        text-align: center;
+        a {
+            padding: 2px;
+            color: #fbe4d6a9;
+            text-decoration: none;
+            font-size: 22px;
+            transition: all 0.3s ease-out;
+
+            &:hover {
+                color: #FBE4D6;
+                font-size: 26px;
+                transition: all 0.3s ease-out;
+            }
+        }
+    }
+}

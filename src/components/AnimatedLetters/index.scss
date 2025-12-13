@@ -1,0 +1,24 @@
+.text-animate {
+    display: inline-block;
+    min-width: 10px;
+    opacity: 0;
+    animation: bounceIn 1s forwards;
+    animation-delay: 1s;
+}
+
+.text-animate-hover {
+    display: inline-block;
+    min-width: 10px;
+    transition: 0.3s ease-out;
+
+    &:hover {
+        transform: scale(1.2) rotate(3deg);
+        color: white;
+    }
+}
+
+@for $i from 1 through 50 {
+    .text-animate._#{$i} {
+        animation-delay: #{$i / 25}s;
+    }
+}

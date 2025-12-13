@@ -1,0 +1,38 @@
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.elements {
+    position: absolute;
+    color: #fbe4d6a9;
+    opacity: 0;
+    left: 190px;
+    bottom: 30px;
+    font-size: 30px;
+}
+
+.top-elements {
+    top: 30px;
+    bottom: auto;
+    animation: backInUp 0.7s forwards;
+}
+
+.bottom-elements {
+    animation: fadeInBottomLeft 1s forwards;
+    animation-delay: 2s;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    min-height: 560px;
+    top: 5%;
+    margin: 0 auto;
+    will-change: contents;
+    opacity: 1;
+    z-index: 1;
+    transform-style: preserve-3d;
+}
