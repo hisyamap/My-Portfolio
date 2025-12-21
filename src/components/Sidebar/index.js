@@ -2,7 +2,7 @@ import './index.scss';
 import HisyamLogo from '../../assets/images/Hisyam-Logo.png';
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faListCheck, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faInbox, faListCheck, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faSquareGithub, faSquareInstagram, faSquareLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
@@ -18,7 +18,7 @@ const Sidebar = () => (
                 <FontAwesomeIcon icon={faListCheck} />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon icon={faInbox} />
             </NavLink>
         </nav>
         <div className='social'>

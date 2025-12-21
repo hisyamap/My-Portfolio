@@ -17,12 +17,12 @@ const Home = () => {
         }, 3000)
         
         return () => {
-                    clearTimeout(timeoutId)
-                }
+            clearTimeout(timeoutId)
+        }
     }, [])
 
     return (
-        <div className="container home-page">
+        <div className="container profile-page">
             <div className="text-zone">
                 <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={hiArray} idx={11}/>

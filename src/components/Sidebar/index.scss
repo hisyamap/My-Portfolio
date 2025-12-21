@@ -16,11 +16,11 @@
             margin: 20px auto;
             width: 75px;
             height: auto;
-            animation: headShake 1s 0.5s;
+            animation: headShake 1s 1.5s;
             transition: 0.3s ease-in-out;
 
             &:hover {
-                transform: scale(1.1);
+                transform: scale(1.06);
             }
         }
     }
@@ -33,7 +33,7 @@
         text-align: center;
         a {
             opacity: 0;
-            animation: bounceIn 1s 0.5s forwards;
+            animation: bounceIn 1s 1.5s forwards;
             display: block;
             position: relative;
             color: #fbe4d6a9;
@@ -95,7 +95,7 @@
 
     .social {
         opacity: 0;
-        animation: bounceIn 1s 2.5s forwards;
+        animation: bounceIn 1s 3.5s forwards;
         display: block;
         position: absolute;
         width: 100%;
