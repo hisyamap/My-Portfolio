@@ -40,7 +40,6 @@
             text-decoration: none;
             font-size: 30px;
             height: 90px;
-            transition: all 0.3s ease-out;
 
             &:hover {
                 color: #FBE4D6;
@@ -95,7 +94,7 @@
 
     .social {
         opacity: 0;
-        animation: bounceIn 1s 3.5s forwards;
+        animation: bounceIn 1s 1.5s forwards;
         display: block;
         position: absolute;
         width: 100%;
@@ -111,7 +110,6 @@
             &:hover {
                 color: #FBE4D6;
                 font-size: 26px;
-                transition: all 0.3s ease-out;
             }
         }
     }

@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "image": "images/Mindringer-Laravel-Website.png",
+        "title": "SOCIAL PUBLISHING PLATFORM THAT CONNECTS READERS",
+        "summary": "I developed a responsive website as a personal project to learn Laravel from scratch. This website feature post category system and social features like sharing and commenting",
+        "name": "MINDRINGER",
+        "description": "A minimalist and user-friendly website developed using Laravel and Tailwind frameworks, combining the integration of backend functionality and responsive frontend design. Mindringer offers a clean space for writers to share ideas and connect with readers",
+        "position": "Full-Stack Developer",
+        "date": "July 2025 - Sep 2025",
+        "stack": ["Laravel", "PHP", "Tailwind"]
+    },
+    {
+        "id": 2,
+        "image": "images/Street-Troubles-Game.png",
+        "title": "HAND-GESTURE-CONTROLLED FIGHTING GAME",
+        "summary": "Developed as an undergraduate thesis project, this game utilizes the Pygame framework integrated with a MediaPipe machine learning model for hand gesture recognition",
+        "name": "STREET TROUBLES",
+        "description": "Street Troubles is a traditional 2D fighting game with a twist of hand gesture recognition feature that will make you able to play the game with your hand. The game consist of 3 gamemode, which is Classic Battle, Gesture Battle, and Hybrid Battle. When in battle, your objective is to fight your enemy (computer) with 3 attack move that you can use.",
+        "position": "Game Developer",
+        "date": "Jan 2025 - April 2025",
+        "stack": ["Python", "Pygame", "MediaPipe", "SVM"]
+    },
+    {
+        "id": 3,
+        "image": "images/Engklek-Hop-thumbnail.jpg",
+        "title": "TRADITIONAL-DIGITAL GAME FOR ENGLISH GRAMMAR LEARNING",
+        "summary": "A freelance game project made for Muhammadiyah University of Purwokerto, I developed a game with Godot engine that integrate english grammar quizzes and interactive game mechanic.",
+        "name": "ENGKLEK HOP",
+        "description": "An interactive 2D game adaptation of a traditional indonesian game (Engklek) made in the Godot engine with a hand drawn style design and user-friendly game interface. Engklek Hop was built as a learning environment where students can improve their english grammar proficiency by playing the game.",
+        "position": "Game Developer",
+        "date": "Jul 2024 - Dec 2024",
+        "stack": ["Godot", "GDScript"]
+    },
+    {
+        "id": 4,
+        "image": "images/Super-Cleaner-Gameplay.png",
+        "title": "EXCITING TOP-DOWN 3D CLEANING GAME",
+        "summary": "I participated in a game development project from the independent study program by Agate Academy, developed a game with Unity engine that features 3 maps with different objective and obstacle.",
+        "name": "SUPER CLEANER",
+        "description": "Super Cleaner is a low-poly top-down 3D game where the player must race against time as an extraordinary janitor cleaning up the chaos left behind by the superhero and monster battles. This game was developed during my initial transition into the Unity ecosystem. It served as a practical application of my learning, allowing me to learn C# scripting, node-based architecture, and game features development while building a functional game from the ground up.",
+        "position": "Game Programmer",
+        "date": "Aug 2023 - Dec 2023",
+        "stack": ["Unity", "C#"]
+    },
+    {
+        "id": 5,
+        "image": "images/SINJAKA-User-View.png",
+        "title": "TRAIN SCHEDULING SYSTEM FOR PURWOKERTO TRAIN STATION",
+        "summary": "Involved in a full-stack website development for an internship project. I was responsible for making the CRUD functionalities, designing user interface, and integrating back-end components.",
+        "name": "SINJAKA",
+        "description": "SINJAKA is a user-friendly website for managing train schedule with admin CRUD functionalities and database integrated train schedule table. This website is developed for Indonesian Railways Company specifically for DAOP 5 Purwokerto",
+        "position": "Full-Stack Developer",
+        "date": "Dec 2022 - Jan 2023",
+        "stack": ["PHP Native", "MySQL"]
+    }
+]

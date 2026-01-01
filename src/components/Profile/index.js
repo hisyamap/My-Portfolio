@@ -37,7 +37,7 @@ const Home = () => {
                     <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={21}/>
                 </h2>
                 <h3>
-                    Utilizing a strong foundation in programming and design principles, I have successfully delivered projects for major organizations, including an educational game development project for Universitas Muhammadiyah Purwokerto and a web development project for the Indonesian Railways Company.
+                    Utilizing a strong foundation in programming and design principles, I have successfully delivered projects for major organizations, including an educational game development project for Muhammadiyah University of Purwokerto and a web development project for the Indonesian Railways Company.
                 </h3>
                 <Link to="/contact" className="flat-button">Contact Me</Link>
             </div>

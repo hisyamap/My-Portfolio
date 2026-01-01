@@ -25,7 +25,7 @@
             margin-bottom: 8px;
             overflow: hidden;
             opacity: 0;
-            animation: fadeInRight 1.5s 1.5s forwards;
+            animation: fadeInRight 1.5s 1s forwards;
         }
     }
 
@@ -82,7 +82,7 @@
         text-decoration: none;
         color: #fbe4d6a9;
         opacity: 0;
-        animation: fadeInRight 1.5s 1.5s forwards;
+        animation: fadeInRight 1s 1.5s forwards;
         transition: 0.2s ease-out;
         white-space: nowrap;
         border-radius: 2px;

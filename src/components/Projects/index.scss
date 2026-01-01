@@ -1,0 +1,81 @@
+.card-zone {
+     position: absolute;
+     width: 45%;
+     height: 100vh;
+     left: auto;
+     right: 5%;
+     margin: 0 auto;
+
+     .content {
+          padding: 80px 0;
+     }
+
+     .project-card {
+          display: block;
+          padding: 25px 25px;
+          background: #0C0950;
+          border: 2px solid #0C0950;
+          border-radius: 4px;
+          margin-bottom: 25px;
+          opacity: 0;
+          animation: fadeInUp 1.5s 1.3s forwards;
+          transition: 0.3s ease-out;
+          
+          .card-container {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               width: 100%;
+               border-radius: 4px;
+               
+               img {
+                    width: 40%;
+                    height: 40%;
+               }
+
+               .text {
+                    padding-inline: 20px;
+
+                    .title {
+                         font-size: 28px;
+                         font-weight: 700; 
+                         line-height: 30px;
+                    }
+
+                    .subtitle {
+                         display: flex;
+                         justify-content: space-between;
+                         color: #fbe4d6a9;
+                    }
+
+                    .stack {
+                         display: flex;
+                         padding-right: 10px;
+                         margin-top: 8px;
+                         font-size: 16px;
+                         font-weight: 500;
+                         
+                         .tech {
+                              margin-right: 8px;
+                         }
+                    }
+
+                    .position {
+                         margin-top: 8px;
+                         font-size: 16px;
+                         font-weight: 500;
+                    }
+
+                    p {
+                         margin-top: 16px;
+                         font-size: 14px;
+                         font-weight: 500;
+                    }
+               }
+          }
+     }
+
+     .project-card:hover {
+          border: 2px solid #FBE4D6;
+     }
+}
