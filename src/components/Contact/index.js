@@ -71,8 +71,8 @@ const Contact = () => {
                     <AnimatedLetters letterClass={letterClass} strArray={basedArray} idx={11}/>
                 </h2>
                 <h3 className="contact-me">
-                    Feel free to send me a message through the form if you have any questions. <br/>
-                    I am currently available for game and web development commissions. <br/> 
+                    Feel free to send me a message if you have any questions. <br/>
+                    I'm currently available for game and web development commissions. <br/> 
                     For project inquiries, please email me at: <br/> 
                     <a target="_blank" rel="noreferrer" href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRtsfhbrhtcFPRqNXzbhlnszWzmmJKrHccJHwJqgwwWjBBbnbhTjWmNbdqGJWGjJBJmhcfG">
                         <FontAwesomeIcon icon={faEnvelope} /> hisyamadeliop@gmail.com

@@ -7,8 +7,7 @@ import { useEffect, useState } from 'react';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const hiArray = ['H', 'i', ' ', 't', 'h', 'e', 'r', 'e', ',']
-    const introArray = ['M', 'y', ' ', 'n', 'a', 'm', 'e', ' ', 'i', 's', ' ']
-    const nameArray = ['H', 'i', 's', 'y', 'a', 'm', ' ', 'A', 'd', 'e', 'l', 'i', 'o', ' ', 'P', 'r', 'a', 'd', 'i', 'p', 't', 'a']
+    const nameArray = [' ', 'H', 'i', 's', 'y', 'a', 'm', ' ', 'A', 'd', 'e', 'l', 'i', 'o', ' ', 'P', 'r', 'a', 'd', 'i', 'p', 't', 'a']
     const jobArray = [' ', 'a', ' ', 'G', 'a', 'm', 'e', ' ', '&', ' ', 'F', 'u', 'l', 'l', '-', 'S', 't', 'a', 'c', 'k', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
     useEffect(() => {
@@ -27,8 +26,10 @@ const Home = () => {
                 <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={hiArray} idx={11}/>
                     <br />
-                    <AnimatedLetters letterClass={letterClass} strArray={introArray} idx={18}/>
-                    <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={28}/>
+                    <span className={`${letterClass} _18`}>I</span>
+                    <span className={`${letterClass} _19`}>'</span>
+                    <span className={`${letterClass} _20`}>m</span>
+                    <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={21}/>
                 </h1>
                 <h2>
                     <span className={`${letterClass} _18`}>I</span>
@@ -37,7 +38,7 @@ const Home = () => {
                     <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={21}/>
                 </h2>
                 <h3>
-                    Utilizing a strong foundation in programming and design principles, I have successfully delivered projects for major organizations, including an educational game development project for Muhammadiyah University of Purwokerto and a web development project for the Indonesian Railways Company.
+                    Utilizing a strong foundation in programming and design principles, I have successfully delivered projects for major organizations, including an educational game development project for Muhammadiyah University of Purwokerto and a web development project for Indonesian Railways Company.
                 </h3>
                 <Link to="/contact" className="flat-button">Contact Me</Link>
             </div>
