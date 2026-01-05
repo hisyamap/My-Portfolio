@@ -2,6 +2,7 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import ProjectModal from '../ProjectModal';
 import projects from '../../data/projects.json';
+import gsap from 'gsap';
 import { useEffect, useRef, useState } from 'react';
 
 

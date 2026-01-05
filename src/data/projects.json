@@ -49,7 +49,7 @@
         "title": "TRAIN SCHEDULING SYSTEM FOR PURWOKERTO TRAIN STATION",
         "summary": "Involved in a full-stack website development for an internship project. I was responsible for making the CRUD functionalities, designing user interface, and integrating back-end components.",
         "name": "SINJAKA",
-        "description": "SINJAKA is a user-friendly website for managing train schedule with admin CRUD functionalities and database integrated train schedule table. This website is developed for Indonesian Railways Company specifically for DAOP 5 Purwokerto",
+        "description": "A user-friendly website for managing train schedule with admin CRUD functionalities and database integrated train schedule. This website is developed for Indonesian Railways Company specifically for DAOP 5 Purwokerto. The front-end of the website is built with HTML and CSS without using any framework, and the UI is designed using Figma. As for the back-end, MySQL was used to accomodate the database for the train schedule table.",
         "position": "Full-Stack Developer",
         "date": "Dec 2022 - Jan 2023",
         "stack": ["PHP Native", "MySQL"]
