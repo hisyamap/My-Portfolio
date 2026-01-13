@@ -1,13 +1,10 @@
-import express from "express";
 import axios from "axios";
-import emailLog from "../models/emailLog.js";
-import { httpResponse } from "../lib/httpResponse.js";
-
-const router = express.Router();
+import emailLog from "../../backend/src/models/emailLog.js";
+import { httpResponse } from "../../backend/src/lib/httpResponse.js";
 
 const SEND_LIMIT_MINUTES = 60;
 
-router.post("/send-email", async (req, res) => {
+export default async function handler(req, res) {
     try {
         const { name, email, subject, message } = req.body;
         
@@ -46,6 +43,4 @@ router.post("/send-email", async (req, res) => {
         console.error("Error in sending email:", error.response?.data || error);
         return httpResponse(500, "Internal server error", {}, res)
     }
-});
-
-export default router;
+}
