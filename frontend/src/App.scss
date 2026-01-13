@@ -1,0 +1,13 @@
+$primary-color: #261FB3;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Manrope';
+  src: url(./assets/fonts/Manrope-VariableFont_wght.ttf) format('truetype');
+}
+
+input,
+textarea {
+  font-family: 'Manrope';
+}
