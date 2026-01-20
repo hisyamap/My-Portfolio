@@ -9,15 +9,19 @@ jspm_packages/
 # testing
 /coverage
 
+# next.js
+/.next/
+/out/
+
 # production
 /build
 
 # dotenv environment variable files
 .env
+.env.local
 .env.development.local
 .env.test.local
 .env.production.local
-.env.local
 
 # misc
 .DS_Store
@@ -28,3 +32,6 @@ yarn-error.log*
 
 # Optional npm cache directory
 .npm
+.vercel
+.next
+.prettierrc

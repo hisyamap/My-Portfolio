@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend",
+        "stack": ["React", "Next.js", "Tailwind"]
+    },
+    {
+        "id": 2,
+        "title": "Backend",
+        "stack": ["Node.js", "Express", "Laravel", "PHP", "MySQL", "MongoDB"]
+    },
+    {
+        "id": 3,
+        "title": "Game",
+        "stack": ["Godot", "Unity", "Pygame"]
+    },
+    {
+        "id": 4,
+        "title": "Tools",
+        "stack": ["Github", "Postman", "Figma", "Krita", "Aseprite"]
+    }
+]

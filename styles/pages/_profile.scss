@@ -1,0 +1,22 @@
+.img-zone {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    transform: scaleX(-1);
+    right: 0;
+    z-index: 0;
+    transition: 0.3s ease-in-out;
+
+    .character {
+        position: absolute;
+        display: block;
+        width: 600px;
+        height: 600px;
+        opacity: 0;
+        animation: fadeInLeft 1.5s 1s forwards;
+        z-index: 1;
+    }
+}
