@@ -20,11 +20,13 @@ const ProjectModal = ({ isOpen, project, onClose }) => {
 
                     <h2>Tech Stack</h2>
 
-                    {project.stack && project.stack.map((tech) => (
-                        <span key={tech} className="tech">
-                            {tech}
-                        </span>
-                    ))}
+                    <div className="stack">
+                        {project.stack && project.stack.map((tech) => (
+                            <span key={tech} className="tech">
+                                {tech}
+                            </span>
+                        ))}
+                    </div>
 
                     <h2>Overview</h2>
                     <p>{project.description}</p>

@@ -2,9 +2,11 @@ import AnimatedLetters from '@/components/AnimatedLetters';
 import ProjectModal from '@/components/ProjectModal';
 import projects from '@/data/projects.json';
 import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 
+gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -25,44 +27,26 @@ const Projects = () => {
     }, []);
 
 
-    useEffect( () => {
-        const container = containerRef.current;
+    useEffect(() => {
         const content = contentRef.current;
-
-        let current = 0;
-        let target = 0;
-        let maxScroll = 0;
-
-        const ease = 0.025;
-        const wheelMultiplier = 0.5;
-
-        const calculateMaxScroll = () => {
-            maxScroll = Math.max(0, content.scrollHeight - container.clientHeight);
-            target = Math.min(target, maxScroll);
-        };
-
-        const onWheel = (e) => {
-            e.preventDefault();
-
-            target += e.deltaY * wheelMultiplier;
-            target = Math.max(0, Math.min(target, maxScroll));
-        };
+        const container = containerRef.current;
+        if (!content || !container) return;
         
-        const smoothScroll = () => {
-            current += (target - current) * ease;
-            content.style.transform = `translateY(${-current}px)`;
-        };
-
-        calculateMaxScroll();
-
-        container.addEventListener("wheel", onWheel, { passive: false });
-        window.addEventListener("resize", calculateMaxScroll);
-        gsap.ticker.add(smoothScroll);
+        const anim = gsap.to(content, {
+            y: () => -(content.scrollHeight - window.innerHeight),
+            ease: "none",
+            scrollTrigger: {
+                trigger: container,
+                start: "top top",
+                end: "bottom bottom",
+                scrub: 2,
+                invalidateOnRefresh: true,
+            }
+        });
 
         return () => {
-            container.removeEventListener("wheel", onWheel);
-            window.removeEventListener("resize", calculateMaxScroll);
-            gsap.ticker.remove(smoothScroll);
+            anim.kill();
+            ScrollTrigger.getAll().forEach(t => t.kill());
         };
     }, []);
 

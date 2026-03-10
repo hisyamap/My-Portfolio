@@ -1,7 +1,6 @@
 // Components
 @import "./components/layout";
 @import "./components/sidebar";
-@import "./components/loader";
 @import "./components/project-modal";
 @import "./components/animated-letters";
 
@@ -31,4 +30,10 @@ body {
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
 }

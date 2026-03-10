@@ -22,3 +22,13 @@
         animation-delay: #{$i / 25}s;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .text-animate {
+        min-width: 6px;
+    }
+
+    .text-animate-hover {
+        min-width: 6px;
+    }
+}

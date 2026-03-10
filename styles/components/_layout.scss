@@ -34,7 +34,6 @@
     will-change: contents;
     opacity: 1;
     z-index: 1;
-    transform-style: preserve-3d;
 }
 
 .container.profile-page,
@@ -99,10 +98,65 @@
     }
 }
 
-.loader {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: 0 auto;
+@media screen and (max-width: 1200px) {
+    .page {
+        padding: 80px 0px;
+        height: auto;
+        position: relative;
+    }
+
+    .container {
+        position: relative;
+        padding: 40px 0px;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .container.profile-page,
+    .container.skills-page,
+    .container.projects-page,
+    .container.contact-page {
+        .text-zone {
+            position: relative;
+            transform: translateY(0%);
+            left: 8%;
+            width: 80%;
+            height: auto;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            line-height: 28px;
+        }
+
+        h2 {
+            margin-top: -14px;
+            font-size: 18px;
+        }
+
+        h3 {
+            margin-top: -5px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+        .flat-button {
+            font-size: 12px;
+            letter-spacing: 2px;
+            padding: 4px 16px;
+        }
+    }
+
+    .elements {
+        position: relative;
+        opacity: 0;
+        left: 8%;
+        bottom: 0;
+        font-size: 24px;
+        animation: fadeIn 1s forwards;
+    }
 }

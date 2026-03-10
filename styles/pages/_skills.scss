@@ -4,19 +4,15 @@
     top: 50%;
     transform: translateY(-50%);
     left: auto;
-    right: 5%;
+    right: 0;
     margin: 0 auto;
-    margin-left: 300px;
-
-    .content {
-        padding: 40px 0;
-    }
 
     .skills-card {
         display: block;
         background: #0C0950;
         border: 2px solid #fbe4d670;
         border-radius: 8px;
+        width: 80%;
         margin-bottom: 25px;
         opacity: 0;
         animation: fadeInRight 1.5s 1s forwards;
@@ -42,21 +38,74 @@
                     margin-bottom: 20px;
                 }
 
-                .tech {
+                .stack {
                     display: inline-flex;
+                    flex-wrap: wrap;
                     justify-content: center;
-                    align-items: center;
-                    font-size: 16px;
-                    font-weight: 700;
-                    padding: 4px 16px;
-                    margin-inline: 6px;
-                    margin-bottom: 10px;
-                    border: 1px solid #fbe4d6a9;
-                    border-radius: 4px;
-                    transition: 0.2s ease-out;
+                    
 
-                    &:hover {
-                        border: 1px solid #FBE4D6;
+                    .tech {
+                        font-size: 16px;
+                        font-weight: 700;
+                        padding: 4px 16px;
+                        margin-inline: 6px;
+                        margin-bottom: 10px;
+                        border: 1px solid #fbe4d6a9;
+                        border-radius: 4px;
+                        transition: 0.2s ease-out;
+
+                        &:hover {
+                            border: 1px solid #FBE4D6;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .skills-zone {
+        position: relative;
+        width: 100%;
+        right: auto;
+        top: 0;
+        transform: translateY(0%);
+        margin: 0 auto;
+        margin-top: 40px;
+
+        .skills-card {
+            display: block;
+            background: #0C0950;
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 15px;
+
+            &:hover {
+                border: 2px solid #FBE4D6;
+                border-radius: 4px;
+            }
+            
+            .card-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                .text {
+                    padding: 12px;
+
+                    .title {
+                        font-size: 18px;
+                        margin-bottom: 12px;
+                    }
+
+                    .stack{
+                        .tech {
+                            font-size: 12px;
+                            padding: 4px 12px;
+                            margin-inline: 6px;
+                            margin-bottom: 8px;
+                        }
                     }
                 }
             }

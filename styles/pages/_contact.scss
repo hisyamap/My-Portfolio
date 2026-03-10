@@ -1,5 +1,5 @@
 .contact-me {
-    width: 75%;
+    width: 100%;
     a {
         color: #FBE4D6;
     }    
@@ -37,6 +37,7 @@
         height: 50px;
         color: #fbe4d6a9;
         background: #0C0950;
+        font-family: Manrope;
         font-size: 18px;
         font-weight: 500;
         padding: 0 20px;
@@ -76,6 +77,7 @@
         float: right;
         background: transparent;
         border: 2px solid #fbe4d6a9;
+        font-family: Manrope;
         font-size: 18px;
         font-weight: 500;
         letter-spacing: 2px;
@@ -98,6 +100,7 @@
 }
 
 .message-toast {
+    position: relative;
     border: 2px solid #FBE4D6 !important;
     border-radius: 4px !important;
     background: #0C0950 !important;
@@ -115,4 +118,53 @@
 
 .message-progress-bar {
     background: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .form-zone {
+        position: relative;
+        width: 80%;
+        right: auto;
+        top: 0;
+        transform: translateY(0%);
+        margin: 0 auto;
+        margin-top: 40px;
+        padding-bottom: 40px;
+
+    input[type=text],
+    input[type=email] {
+        height: 40px;
+        font-size: 12px;
+        padding: 0 16px;
+    }
+
+    textarea {
+        min-height: 120px;
+        font-size: 12px;
+        padding: 12px 16px;
+    }
+
+    .form-button {
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding: 4px 16px;
+    }
+}
+
+.message-toast {
+    position: relative;
+    width: 230px;
+    font-size: 12px;
+    margin-top: 80px;
+
+    .toast-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 4px;
+    }
+}
+
+    .message-progress-bar {
+        background: white;
+    }
 }
