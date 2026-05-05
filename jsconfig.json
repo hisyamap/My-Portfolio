@@ -1,11 +1,10 @@
 {
-  "compilerOptions": {
-    "baseUrl": ".",
+  "compilerOptions": { 
     "paths": {
-      "@/components/*": ["components/*"],
-      "@/styles/*": ["styles/*"],
-      "@/public/*": ["public/*"],
-      "@/data/*": ["data/*"]
+      "@/components/*": ["./components/*"],
+      "@/styles/*": ["./styles/*"],
+      "@/public/*": ["./public/*"],
+      "@/data/*": ["./data/*"]
     }
   },
   "exclude": ["node_modules"]

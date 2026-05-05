@@ -1,6 +1,39 @@
 [
     {
         "id": 1,
+        "image": "/assets/images/Spacytics-Screenshot.png",
+        "title": "SPACE TACTICS RPG ISOMETRIC GAME (WIP)",
+        "summary": "Currently in development of a solo game project made with Unity that features tile-based movement, turn-based combat, and RPG element",
+        "name": "SPACYTICS",
+        "description": "Spacytics is a turn-based/grid-based tactics RPG game where player has to fight through challenging enemies from outerspace. Along the playthrough, player will ecounter companions that can be recruited, player will also ecounter a shop to acquire some item that will help defeat the enemies. Every section has a progressively challenging boss that player have to defeat to progress to next section",
+        "position": "Game Developer",
+        "date": "Feb 2026 - Present",
+        "stack": ["Unity", "C#"]
+    },
+    {
+        "id": 2,
+        "image": "/assets/images/Portfolio-Screenshot.png",
+        "title": "PERSONAL PORTFOLIO WEBSITE",
+        "summary": "Complete rebuild of my personal portofolio website using React to transition from static web development to component-based architecture.",
+        "name": "HISYAM PORTFOLIO",
+        "description": "an interactive and responsive web application that serves as a practical environment to implement and stress-test various React front-end libraries, while leveraging Next.js to handle email-sending through serverless functions. This website focuses on effective UI/UX transitions and efficient data handling, ensuring the site is both highly interactive for users and easy to scale on the server.",
+        "position": "Front-End Developer",
+        "date": "Dec 2025 - Jan 2026",
+        "stack": ["React", "Next.js", "GSAP"]
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/FullstackIdeas-Screenshot.png",
+        "title": "CRUD API FOR A FULL-STACK WESBSITE",
+        "summary": "A REST API project made with Node.js and MongoDB for an upcoming full-stack community-driven website",
+        "name": "FULLSTACK PROJECT IDEAS API",
+        "description": "Fullstack project ideas API is a dedicated RESTful API designed to serve as a collaborative hub for developers. It allows users to contribute, manage, and discover curated full-stack project ideas. This API was Implemented with Mongoose for Projects & Users model, CRUD endpoints for Project User register & login endpoints, and Auth middleware using JWT.",
+        "position": "Back-End Developer",
+        "date": "Oct 2025 - Nov 2025",
+        "stack": ["Node.js", "Express", "MongoDB"]
+    },
+    {
+        "id": 4,
         "image": "/assets/images/Mindringer-Laravel-Website.png",
         "title": "SOCIAL PUBLISHING PLATFORM THAT CONNECTS READERS",
         "summary": "I developed a responsive website as a personal project to learn Laravel from scratch. This website feature post category system and social features like sharing and commenting",
@@ -11,18 +44,18 @@
         "stack": ["Laravel", "PHP", "Tailwind"]
     },
     {
-        "id": 2,
+        "id": 5,
         "image": "/assets/images/Street-Troubles-Game.png",
         "title": "HAND-GESTURE-CONTROLLED FIGHTING GAME",
         "summary": "Developed as an undergraduate thesis project, this game utilizes the Pygame framework integrated with a MediaPipe machine learning model for hand gesture recognition",
         "name": "STREET TROUBLES",
-        "description": "Street Troubles is a traditional 2D fighting game with a twist of hand gesture recognition feature that will make you able to play the game with your hand. The game consist of 3 gamemode, which is Classic Battle, Gesture Battle, and Hybrid Battle. When in battle, your objective is to fight your enemy (computer) with 3 attack move that you can use.",
+        "description": "Street Troubles is a traditional 2D fighting game with a twist of hand gesture recognition feature that will make you able to play the game with your hand. The game consist of 3 gamemode, which is Classic Battle, Gesture Battle, and Hybrid Battle. When in battle, your objective is to fight your enemy (computer) with 3 attack move that you can use. The pixel art character animation and background sprite were created by myself using Krita and designed a visually appealing user interface using Figma.",
         "position": "Game Developer",
         "date": "Jan 2025 - April 2025",
         "stack": ["Python", "Pygame", "MediaPipe", "SVM"]
     },
     {
-        "id": 3,
+        "id": 6,
         "image": "/assets/images/Engklek-Hop-thumbnail.jpg",
         "title": "TRADITIONAL-DIGITAL GAME FOR ENGLISH GRAMMAR LEARNING",
         "summary": "A freelance game project made for Muhammadiyah University of Purwokerto, I developed a game with Godot engine that integrate english grammar quizzes and interactive game mechanic.",
@@ -33,7 +66,7 @@
         "stack": ["Godot", "GDScript"]
     },
     {
-        "id": 4,
+        "id": 7,
         "image": "/assets/images/Super-Cleaner-Gameplay.png",
         "title": "EXCITING TOP-DOWN 3D CLEANING GAME",
         "summary": "I participated in a game development project from the independent study program by Agate Academy, developed a game with Unity engine that features 3 maps with different objective and obstacle.",
@@ -44,7 +77,7 @@
         "stack": ["Unity", "C#"]
     },
     {
-        "id": 5,
+        "id": 8,
         "image": "/assets/images/SINJAKA-User-View.png",
         "title": "TRAIN SCHEDULING SYSTEM FOR PURWOKERTO TRAIN STATION",
         "summary": "Involved in a full-stack website development for an internship project. I was responsible for making the CRUD functionalities, designing user interface, and integrating back-end components.",
