@@ -3,12 +3,14 @@
         "id": 1,
         "image": "/assets/images/Spacytics-Screenshot.png",
         "title": "SPACE TACTICS RPG ISOMETRIC GAME (WIP)",
-        "summary": "Currently in development of a solo game project made with Unity that features tile-based movement, turn-based combat, and RPG element",
+        "summary": "Currently in development of a solo game project made with Unity that features tile-based movement, turn-based combat, and RPG elements.",
         "name": "SPACYTICS",
-        "description": "Spacytics is a turn-based/grid-based tactics RPG game where player has to fight through challenging enemies from outerspace. Along the playthrough, player will ecounter companions that can be recruited, player will also ecounter a shop to acquire some item that will help defeat the enemies. Every section has a progressively challenging boss that player have to defeat to progress to next section",
+        "description": "Spacytics is a turn-based/grid-based tactics RPG game where player has to fight through challenging enemies from outerspace. Along the playthrough, player will ecounter companions that can be recruited, player will also ecounter a shop to acquire some item that will help defeat the enemies. Every section has a progressively challenging boss that player have to defeat to progress through the level",
         "position": "Game Developer",
         "date": "Feb 2026 - Present",
-        "stack": ["Unity", "C#"]
+        "stack": ["Unity", "C#"],
+        "github": "https://github.com/hisyamap/Spacytics",
+        "demo": ""
     },
     {
         "id": 2,
@@ -16,10 +18,12 @@
         "title": "PERSONAL PORTFOLIO WEBSITE",
         "summary": "Complete rebuild of my personal portofolio website using React to transition from static web development to component-based architecture.",
         "name": "HISYAM PORTFOLIO",
-        "description": "an interactive and responsive web application that serves as a practical environment to implement and stress-test various React front-end libraries, while leveraging Next.js to handle email-sending through serverless functions. This website focuses on effective UI/UX transitions and efficient data handling, ensuring the site is both highly interactive for users and easy to scale on the server.",
-        "position": "Front-End Developer",
+        "description": "An interactive and responsive portfolio web application that serves as a practical environment to implement and stress-test various React front-end libraries, while leveraging Next.js to handle email-sending through serverless functions. This portfolio website focuses on effective UI/UX transitions and efficient data handling, ensuring the site is both highly interactive for users and easy to scale on the server.",
+        "position": "Front-End Dev",
         "date": "Dec 2025 - Jan 2026",
-        "stack": ["React", "Next.js", "GSAP"]
+        "stack": ["React", "Next.js", "GSAP"],
+        "github": "https://github.com/hisyamap/My-Portfolio",
+        "demo": ""
     },
     {
         "id": 3,
@@ -28,20 +32,24 @@
         "summary": "A REST API project made with Node.js and MongoDB for an upcoming full-stack community-driven website",
         "name": "FULLSTACK PROJECT IDEAS API",
         "description": "Fullstack project ideas API is a dedicated RESTful API designed to serve as a collaborative hub for developers. It allows users to contribute, manage, and discover curated full-stack project ideas. This API was Implemented with Mongoose for Projects & Users model, CRUD endpoints for Project User register & login endpoints, and Auth middleware using JWT.",
-        "position": "Back-End Developer",
+        "position": "Back-End Dev",
         "date": "Oct 2025 - Nov 2025",
-        "stack": ["Node.js", "Express", "MongoDB"]
+        "stack": ["Node.js", "Express", "MongoDB"],
+        "github": "https://github.com/hisyamap/Fullstack-Project-Ideas-API",
+        "demo": ""
     },
     {
         "id": 4,
         "image": "/assets/images/Mindringer-Laravel-Website.png",
-        "title": "SOCIAL PUBLISHING PLATFORM THAT CONNECTS READERS",
+        "title": "SOCIAL READING WEBSITE THAT CONNECTS READERS",
         "summary": "I developed a responsive website as a personal project to learn Laravel from scratch. This website feature post category system and social features like sharing and commenting",
         "name": "MINDRINGER",
         "description": "A minimalist and user-friendly website developed using Laravel and Tailwind frameworks, combining the integration of backend functionality and responsive frontend design. Mindringer offers a clean space for writers to share ideas and connect with readers",
-        "position": "Full-Stack Developer",
+        "position": "Full-Stack Dev",
         "date": "July 2025 - Sep 2025",
-        "stack": ["Laravel", "PHP", "Tailwind"]
+        "stack": ["Laravel", "PHP", "Tailwind"],
+        "github": "https://github.com/hisyamap/mindringer",
+        "demo": ""
     },
     {
         "id": 5,
@@ -49,21 +57,25 @@
         "title": "HAND-GESTURE-CONTROLLED FIGHTING GAME",
         "summary": "Developed as an undergraduate thesis project, this game utilizes the Pygame framework integrated with a MediaPipe machine learning model for hand gesture recognition",
         "name": "STREET TROUBLES",
-        "description": "Street Troubles is a traditional 2D fighting game with a twist of hand gesture recognition feature that will make you able to play the game with your hand. The game consist of 3 gamemode, which is Classic Battle, Gesture Battle, and Hybrid Battle. When in battle, your objective is to fight your enemy (computer) with 3 attack move that you can use. The pixel art character animation and background sprite were created by myself using Krita and designed a visually appealing user interface using Figma.",
+        "description": "Street Troubles is a traditional 2D fighting game with a twist of hand gesture recognition feature that will make you able to play the game with your hand. The game consist of 3 gamemode, which is Classic Battle, Gesture Battle, and Hybrid Battle. When in battle, your objective is to fight your enemy (computer) with 3 attack move that you can use. The pixel art character animation and background sprite were created using Krita and the UI were designed using Figma.",
         "position": "Game Developer",
         "date": "Jan 2025 - April 2025",
-        "stack": ["Python", "Pygame", "MediaPipe", "SVM"]
+        "stack": ["Python", "Pygame", "MediaPipe", "SVM"],
+        "github": "",
+        "demo": "https://swuksdev.itch.io/street-troubles?secret=LQeHjfiPKRFYZlBELEfoSX7VEZo"
     },
     {
         "id": 6,
         "image": "/assets/images/Engklek-Hop-thumbnail.jpg",
-        "title": "TRADITIONAL-DIGITAL GAME FOR ENGLISH GRAMMAR LEARNING",
+        "title": "TRADITIONAL-DIGITAL GAME FOR ENGLISH LEARNING",
         "summary": "A freelance game project made for Muhammadiyah University of Purwokerto, I developed a game with Godot engine that integrate english grammar quizzes and interactive game mechanic.",
         "name": "ENGKLEK HOP",
-        "description": "An interactive 2D game adaptation of a traditional indonesian game (Engklek) made in the Godot engine with a hand drawn style design and user-friendly game interface. Engklek Hop was built as a learning environment where students can improve their english grammar proficiency by playing the game.",
+        "description": "An interactive 2D game adaptation of a traditional indonesian game (Engklek) made in the Godot engine with a hand drawn style design and user-friendly game interface. Engklek Hop was built as a learning environment where students can improve their english grammar proficiency by playing the game. In this game, player will able to play in singleplayer or (turn-based) multiplayer mode.",
         "position": "Game Developer",
         "date": "Jul 2024 - Dec 2024",
-        "stack": ["Godot", "GDScript"]
+        "stack": ["Godot", "GDScript", "Dialogic"],
+        "github": "https://github.com/hisyamap/Engklek-Hop",
+        "demo": "https://engklekhop.digidogames.com/"
     },
     {
         "id": 7,
@@ -74,17 +86,21 @@
         "description": "Super Cleaner is a low-poly top-down 3D game where the player must race against time as an extraordinary janitor cleaning up the chaos left behind by the superhero and monster battles. This game was developed during my initial transition into the Unity ecosystem. It served as a practical application of my learning, allowing me to learn C# scripting, node-based architecture, and game features development while building a functional game from the ground up.",
         "position": "Game Programmer",
         "date": "Aug 2023 - Dec 2023",
-        "stack": ["Unity", "C#"]
+        "stack": ["Unity", "C#"],
+        "github": "https://github.com/Kelompok-9-Agate/Super-Cleaner-Game",
+        "demo": "https://reafuse.itch.io/super-cleaner"
     },
     {
         "id": 8,
         "image": "/assets/images/SINJAKA-User-View.png",
-        "title": "TRAIN SCHEDULING SYSTEM FOR PURWOKERTO TRAIN STATION",
+        "title": "TRAIN SCHEDULING SYSTEM FOR A TRAIN STATION",
         "summary": "Involved in a full-stack website development for an internship project. I was responsible for making the CRUD functionalities, designing user interface, and integrating back-end components.",
         "name": "SINJAKA",
-        "description": "A user-friendly website for managing train schedule with admin CRUD functionalities and database integrated train schedule. This website is developed for Indonesian Railways Company specifically for DAOP 5 Purwokerto. The front-end of the website is built with HTML and CSS without using any framework, and the UI is designed using Figma. As for the back-end, MySQL was used to accomodate the database for the train schedule table.",
-        "position": "Full-Stack Developer",
+        "description": "A user-friendly website for managing train schedule with admin CRUD functionalities and database integrated train schedule. This website is developed for Indonesian Railways Company specifically for DAOP 5 Purwokerto. The front-end of the website were built with HTML and CSS without using any framework, and the UI were designed using Figma. As for the back-end, MySQL was used to accomodate the database for the train schedule table.",
+        "position": "Full-Stack Dev",
         "date": "Dec 2022 - Jan 2023",
-        "stack": ["PHP Native", "MySQL"]
+        "stack": ["PHP Native", "MySQL"],
+        "github": "https://github.com/hisyamap/SINJAKA",
+        "demo": ""
     }
 ]

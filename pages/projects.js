@@ -13,8 +13,11 @@ const Projects = () => {
     const [modalOpen, setModalOpen] = useState(false);
     const [activeProject, setActiveProject] = useState(null);
     const titleArray = ['R', 'e', 'c', 'e', 'n', 't', ' ', 'P', 'r', 'o', 'j', 'e', 'c', 't', 's']
+
     const containerRef = useRef(null);
     const contentRef = useRef(null);
+    const content = contentRef.current;
+    const container = containerRef.current;
     
     useEffect(() => {
         let timeoutId = setTimeout(() => {
@@ -28,26 +31,26 @@ const Projects = () => {
 
 
     useEffect(() => {
-        const content = contentRef.current;
-        const container = containerRef.current;
-        if (!content || !container) return;
-        
-        const anim = gsap.to(content, {
-            y: () => -(content.scrollHeight - window.innerHeight),
-            ease: "none",
-            scrollTrigger: {
-                trigger: container,
-                start: "top top",
-                end: "bottom bottom",
-                scrub: 2,
-                invalidateOnRefresh: true,
-            }
-        });
+        const ctx = gsap.context(() => {
 
-        return () => {
-            anim.kill();
-            ScrollTrigger.getAll().forEach(t => t.kill());
-        };
+            ScrollTrigger.config({ 
+                ignoreMobileResize: true 
+            });
+
+            gsap.to(content, {
+                    y: () => -(content.scrollHeight - container.offsetHeight),
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: container,
+                        start: "top top",
+                        end: "bottom bottom",
+                        scrub: 2,
+                        invalidateOnRefresh: true,
+                    }
+                });
+            });
+
+        return () => ctx.revert();
     }, []);
 
     return (
