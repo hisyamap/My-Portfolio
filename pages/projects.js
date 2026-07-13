@@ -65,7 +65,7 @@ const Projects = () => {
                     <AnimatedLetters letterClass={letterClass} strArray={titleArray} idx={11}/>
                 </h1>
                 <h3>
-                        Explore my recent work as a game & full-stack developer
+                        From concept to creation <br/> Discover my capabilities through past work.
                 </h3>
             </div>
             <div className="card-zone" ref={containerRef}>

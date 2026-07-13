@@ -1,11 +1,37 @@
 [
     {
         "id": 1,
+        "image": "/assets/images/Syncpool-Screenshot.png",
+        "title": "STREAMLINED TECH JOB RECRUITMENT WEBSITE",
+        "summary": "I built a responsive front-end of a tech job recruitment website with Vue.js and used Pinia for a simple role-based access system",
+        "name": "SYNC POOL",
+        "description": "A streamlined, front-end recruitment platform designed to connect job seekers and employers through a user-centric interface. By using Vue 3, This website was made for simple navigation in mind for users and features a refined client-side CRUD system for effortless management of job listings. For serverless deployment environments, a cloud mock API (Mockfly) is used to generate JSON data and simulate stateful RESTful responses",
+        "position": "Front-End Dev",
+        "date": "May 2026 - July 2026",
+        "stack": ["Vue.js", "Pinia"],
+        "github": "https://github.com/hisyamap/SyncPool",
+        "demo": "https://syncpool.netlify.app/"
+    },
+    {
+        "id": 2,
+        "image": "/assets/images/TheDoctorisDream-Thumb.png",
+        "title": "STORY-DRIVEN ADVENTURE GAME",
+        "summary": "Participated in Gameseed 2026 game jam, I developed a prototype of side-scrolling adventure game by using Godot engine",
+        "name": "THE DOCTOR IS DREAM",
+        "description": "The Doctor is Dream game explores the doctor's personal nostalgic, imaginative, and life-changing background story as the core motivation to help people through the medical field. We integrated this narrative design into our core side-scrolling gameplay mechanics to fully immerse players in the story. This game prototype was developed in Godot engine and created all pixel art assets using Aseprite within a strict three-week game jam timeline",
+        "position": "Game Developer",
+        "date": "June 2026 - July 2026",
+        "stack": ["Godot", "GDScript"],
+        "github": "",
+        "demo": "https://swuksdev.itch.io/the-doctor-is-dream"
+    },
+    {
+        "id": 3,
         "image": "/assets/images/Spacytics-Screenshot.png",
         "title": "SPACE TACTICS RPG ISOMETRIC GAME (WIP)",
-        "summary": "Currently in development of a solo game project made with Unity that features tile-based movement, turn-based combat, and RPG elements.",
+        "summary": "Currently in development of a indie game project made with Unity that features tile-based movement, turn-based combat, and RPG elements.",
         "name": "SPACYTICS",
-        "description": "Spacytics is a turn-based/grid-based tactics RPG game where player has to fight through challenging enemies from outerspace. Along the playthrough, player will ecounter companions that can be recruited, player will also ecounter a shop to acquire some item that will help defeat the enemies. Every section has a progressively challenging boss that player have to defeat to progress through the level",
+        "description": "Spacytics is a turn-based/grid-based tactics RPG game where player has to fight through challenging enemies from outerspace. Along the playthrough, player will ecounter companions that can be recruited, player will also ecounter a shop to acquire some item that will help defeat the enemies. Every section has a progressively challenging boss that player have to defeat to progress through the level.",
         "position": "Game Developer",
         "date": "Feb 2026 - Present",
         "stack": ["Unity", "C#"],
@@ -13,7 +39,7 @@
         "demo": ""
     },
     {
-        "id": 2,
+        "id": 4,
         "image": "/assets/images/Portfolio-Screenshot.png",
         "title": "PERSONAL PORTFOLIO WEBSITE",
         "summary": "Complete rebuild of my personal portofolio website using React to transition from static web development to component-based architecture.",
@@ -26,7 +52,7 @@
         "demo": ""
     },
     {
-        "id": 3,
+        "id": 5,
         "image": "/assets/images/FullstackIdeas-Screenshot.png",
         "title": "CRUD API FOR A FULL-STACK WESBSITE",
         "summary": "A REST API project made with Node.js and MongoDB for an upcoming full-stack community-driven website",
@@ -39,7 +65,7 @@
         "demo": ""
     },
     {
-        "id": 4,
+        "id": 6,
         "image": "/assets/images/Mindringer-Laravel-Website.png",
         "title": "SOCIAL READING WEBSITE THAT CONNECTS READERS",
         "summary": "I developed a responsive website as a personal project to learn Laravel from scratch. This website feature post category system and social features like sharing and commenting",
@@ -52,7 +78,7 @@
         "demo": ""
     },
     {
-        "id": 5,
+        "id": 7,
         "image": "/assets/images/Street-Troubles-Game.png",
         "title": "HAND-GESTURE-CONTROLLED FIGHTING GAME",
         "summary": "Developed as an undergraduate thesis project, this game utilizes the Pygame framework integrated with a MediaPipe machine learning model for hand gesture recognition",
@@ -65,7 +91,7 @@
         "demo": "https://swuksdev.itch.io/street-troubles?secret=LQeHjfiPKRFYZlBELEfoSX7VEZo"
     },
     {
-        "id": 6,
+        "id": 8,
         "image": "/assets/images/Engklek-Hop-thumbnail.jpg",
         "title": "TRADITIONAL-DIGITAL GAME FOR ENGLISH LEARNING",
         "summary": "A freelance game project made for Muhammadiyah University of Purwokerto, I developed a game with Godot engine that integrate english grammar quizzes and interactive game mechanic.",
@@ -78,7 +104,7 @@
         "demo": "https://engklekhop.digidogames.com/"
     },
     {
-        "id": 7,
+        "id": 9,
         "image": "/assets/images/Super-Cleaner-Gameplay.png",
         "title": "EXCITING TOP-DOWN 3D CLEANING GAME",
         "summary": "I participated in a game development project from the independent study program by Agate Academy, developed a game with Unity engine that features 3 maps with different objective and obstacle.",
@@ -91,7 +117,7 @@
         "demo": "https://reafuse.itch.io/super-cleaner"
     },
     {
-        "id": 8,
+        "id": 10,
         "image": "/assets/images/SINJAKA-User-View.png",
         "title": "TRAIN SCHEDULING SYSTEM FOR A TRAIN STATION",
         "summary": "Involved in a full-stack website development for an internship project. I was responsible for making the CRUD functionalities, designing user interface, and integrating back-end components.",
