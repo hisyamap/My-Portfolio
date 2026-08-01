@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Frontend",
-        "stack": ["React", "Next.js", "Tailwind"]
+        "stack": ["React.js", "Next.js", "Vue.js", "Pinia", "Tailwind"]
     },
     {
         "id": 2,
